@@ -37,4 +37,48 @@ nav {
 .nav-link a {
   text-decoration: none;
   color: #3a3a3a;
+  font-size: 16px;
+}
+/* header section design */
+.header-section {
+  margin: 0 8.333%;
+  display: flex;
+  padding: 50px 0;
+}
+.header-title {
+  width: 100%;
+  padding: 70px 0 20px 0;
+}
+.header-title h1 {
+  font-size: 52px;
+  text-transform: capitalize;
+}
+.header-title p {
+  letter-spacing: 1.4px;
+  padding: 40px 0 20px 0;
+  font-size: 16px;
+}
+.hero-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px 24px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background: #e02c6d;
+  cursor: pointer;
+}
+.hero-button i {
+  padding: 0 5px;
+}
+.hero-button a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+.header-img img {
+  width: 440px;
+  height: 414px;
 }
