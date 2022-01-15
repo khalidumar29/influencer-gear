@@ -15,6 +15,10 @@
 }
 
 /******************************************* header Style ******************************************* */
+/*
+*
+*/
+/* Nav Design */
 nav {
   margin: 0 8.333%;
   padding: 34px 0 0 0;
@@ -81,4 +85,20 @@ nav {
 .header-img img {
   width: 440px;
   height: 414px;
+}
+/* E-com Banner Design */
+
+.brand-banner-section {
+  margin: 0 8.333%;
+  padding: 10px 0;
+  box-shadow: 0 -2px 6px 0px #b8b6b6;
+  box-shadow: 0 1px 6px 0px #b8b6b6;
+  padding: 15px 0;
+}
+.brand-banner {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: center;
+  padding: 13px 0;
 }
