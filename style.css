@@ -65,7 +65,7 @@ nav {
 }
 /* ***** For Tab ***** */
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 601px) {
   nav {
     margin: 0 8.333%;
     padding: 25px 0 0 0;
@@ -155,7 +155,7 @@ nav {
 }
 /* ***** For Tab ***** */
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 601px) {
   .header-title {
     width: 100%;
     padding: 25px 0 20px 0;
@@ -197,7 +197,7 @@ nav {
   }
 }
 /* ***** For Tab ***** */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 601px) {
   .brand-banner {
     flex-wrap: wrap;
     padding: 5px 0;
@@ -281,7 +281,7 @@ nav {
   }
 }
 /* ***** For Tab ***** */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 601px) {
   .shop-section-title {
     display: flex;
     justify-content: center;
@@ -352,7 +352,7 @@ nav {
   }
 }
 /* ***** For Tab ***** */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 601px) {
   .gallery-title {
     text-align: center;
     font-size: 25px;
@@ -424,7 +424,7 @@ footer {
   }
 }
 /* ***** For Tab ***** */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 601px) {
   .footer-text {
     font-size: 15px;
   }
