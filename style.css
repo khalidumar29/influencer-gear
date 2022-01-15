@@ -114,6 +114,10 @@ nav {
   outline: none;
   background: #e02c6d;
   cursor: pointer;
+  transition: all 0.5s;
+}
+.hero-button:hover {
+  transform: translateX(40px);
 }
 .hero-button i {
   padding: 0 5px;
