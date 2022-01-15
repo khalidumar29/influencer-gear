@@ -43,6 +43,26 @@ nav {
   color: #3a3a3a;
   font-size: 16px;
 }
+.carts {
+  display: none;
+}
+
+/* ***************** Responsive Design ************************* */
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+  .carts {
+    display: block;
+  }
+  .carts a {
+    text-decoration: none;
+    color: #3a3a3a;
+    font-size: 22px;
+  }
+}
+
 /* header section design */
 .header-section {
   margin: 0 8.333%;
@@ -82,9 +102,26 @@ nav {
   text-decoration: none;
   font-size: 16px;
 }
-.header-img img {
+.header-img {
   width: 440px;
   height: 414px;
+}
+.header-img img {
+  width: 100%;
+}
+/* ***************** Responsive Design ************************* */
+
+@media only screen and (max-width: 600px) {
+  .header-section {
+    flex-direction: column;
+  }
+  .header-img {
+    width: 350px;
+    height: 414px;
+  }
+  .header-img img {
+    width: 100%;
+  }
 }
 /* E-com Banner Design */
 
@@ -100,6 +137,13 @@ nav {
   gap: 60px;
   justify-content: center;
   padding: 13px 0;
+}
+/* ***************** Responsive Design ************************* */
+
+@media only screen and (max-width: 600px) {
+  .brand-banner {
+    flex-wrap: wrap;
+  }
 }
 
 /******************************************* Shoping Section Style ******************************************* */
@@ -159,6 +203,24 @@ nav {
 .product-details p {
   letter-spacing: 1.8px;
 }
+/* ***************** Responsive Design ************************* */
+
+@media only screen and (max-width: 600px) {
+  .shop-section-title h1 {
+    font-size: 28px;
+  }
+  .shop-section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+  }
+  .shopping-cart {
+    display: grid;
+    grid-template-columns: repeat(1, 468px);
+    row-gap: 30px;
+  }
+}
 
 /*********** Next page Button design ***********/
 .next-page {
@@ -170,7 +232,6 @@ nav {
   color: #e02c6d;
 }
 .next-page > i {
-  /* color: #692828; */
   font-size: 18px;
   padding: 0 15px;
 }
@@ -182,7 +243,7 @@ nav {
   text-align: center;
   font-size: 28px;
   color: #3a3a3a;
-  padding: 20px;
+  padding: 20px 0;
 }
 .gallery-wraper {
   display: grid;
@@ -197,6 +258,19 @@ nav {
 .gallery-img img {
   width: 100%;
   height: 100%;
+}
+/* ***************** Responsive Design ************************* */
+@media only screen and (max-width: 600px) {
+  .gallery-title {
+    text-align: center;
+    font-size: 22px;
+    color: #3a3a3a;
+    padding: 15px 0;
+  }
+  .gallery-wraper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 /******************************************* Footer Style ******************************************* */
 
@@ -229,4 +303,28 @@ footer {
 }
 .footer-icon > i {
   margin-right: 15px;
+}
+/* ***************** Responsive Design ************************* */
+
+@media only screen and (max-width: 600px) {
+  .footer-tittle {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  .footer-text {
+    text-align: center;
+    padding: 10px 0;
+    line-height: 35px;
+    font-size: 12px;
+    color: #d9dbe1;
+  }
+  .footer-icon {
+    text-align: center;
+    font-size: 20px;
+  }
+  .footer-icon > i {
+    margin-right: 15px;
+    padding-bottom: 10px;
+  }
 }
